@@ -16,7 +16,7 @@ int main() {
 		elem = to_string(rand() % 1000000 + 1000000);
 	
 	// Task 2
-	vector<UnsignedLongInt>::iterator b = v1.end() - 200; // ��� ����� ������ ����� ������� �������
+	vector<UnsignedLongInt>::iterator b = v1.end() - 200; 
 	vector<UnsignedLongInt>::iterator e = v1.end();
 	vector<UnsignedLongInt> v2(b, e);
 	cout << v2.size() << endl;
